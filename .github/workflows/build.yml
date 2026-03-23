@@ -8,9 +8,7 @@ on:
     - cron: "0 5 * * 4"
   push:
     branches:
-      - "**"
-    tags:
-      - "v*.*.*"
+      - "main"
   pull_request:
 
 env:
